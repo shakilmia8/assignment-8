@@ -18,7 +18,11 @@ const Freelancer = (props) => {
                             <p><span>Age :</span> {age}</p>
                             <p><span>Country :</span> {country}</p>
                             <p><span>Salary :</span> {salary}</p>
-                            <button>{cart}  Add to Hire</button>
+                            <button onClick={() => props.handleClicked(props.freelancer)}>{cart}  Add to Hire</button>
+                            <div className='icon'>
+                                <a href="/facebook"><i className="fab fa-facebook-square"></i></a>
+                                <a href="/twitter"><i className="fab fa-twitter-square"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>

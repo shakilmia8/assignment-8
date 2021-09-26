@@ -8,6 +8,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .added{
+    width: 25%;
     color: blue;
     margin-top: 20px;
 }

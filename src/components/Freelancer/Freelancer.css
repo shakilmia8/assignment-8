@@ -1,5 +1,8 @@
 .card{
-background-image: linear-gradient( rgba(126, 245, 14, 0.747),rgba(253, 249, 5, 0.404));
+background-image: linear-gradient( rgba(126, 245, 14, 0.411),rgba(253, 249, 5, 0.377));
+}
+.card p{
+    line-height: 14px;
 }
 .freelancer img{
     margin-top: 20px;
@@ -21,4 +24,16 @@ background-image: linear-gradient( rgba(126, 245, 14, 0.747),rgba(253, 249, 5, 0
     border: 1px solid tomato;
     background-color: tomato;
     width: 200px;
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.icon a{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.842);
+}
+.icon a:hover{
+    color:blue;
 }
