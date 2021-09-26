@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Freelancers from './components/Freelancers/Freelancers';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Module 50</h1>
-      <h2>Welcome Assignment 8!!!</h2>
+    <div>
+      <Header></Header>
+      <Freelancers></Freelancers>
     </div>
   );
 }

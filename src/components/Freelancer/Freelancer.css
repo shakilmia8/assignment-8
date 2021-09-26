@@ -1,0 +1,24 @@
+.card{
+background-image: linear-gradient( rgba(126, 245, 14, 0.747),rgba(253, 249, 5, 0.404));
+}
+.freelancer img{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 50%;
+    border-radius: 50%;
+}
+.freelancer p span{
+    color: rgb(241, 44, 9);
+    font-weight: bold;
+}
+
+.freelancer button{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 28px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    width: 200px;
+}

@@ -1,0 +1,13 @@
+.freelancers-container{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.692);
+}
+.freelancers{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.added{
+    color: blue;
+    margin-top: 20px;
+}
