@@ -1,25 +1,21 @@
 import './Hire.css';
 import React from 'react';
+import Card from '../Card/Card';
 
 const Hire = (props) => {
     const { cart } = props;
     let totalCost = 0;
-    let find = [];
-    let img = [];
     for (const freelancer of cart) {
         totalCost = totalCost + freelancer.salary;
-        find = freelancer.name;
-        img = freelancer.img;
     }
 
     return (
         <div className='hire'>
             <h4>Freelancer Added: {cart.length}</h4>
-            <h4>Total Cost: $ <span>{totalCost}</span></h4>
-            <div className="hidden">
-                <img src={img} alt="" />
-                <h2>{find}</h2>
-            </div>
+            <h4>Total Cost: $<span>{totalCost}</span></h4>
+            {
+                cart.map(car => <Card key={car.key} car={car}></Card>)
+            }
             <button>Contact Now</button>
         </div>
     );

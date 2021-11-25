@@ -18,7 +18,7 @@ const Freelancer = (props) => {
                             <p><span>Role :</span> {role}</p>
                             <p><span>Age :</span> {age}</p>
                             <p><span>Country :</span> {country}</p>
-                            <p><span>Salary :</span> {salary}</p>
+                            <p><span>Salary :</span> ${salary}</p>
                             <Rating
                                 className='rating'
                                 initialRating={star}

@@ -1,0 +1,18 @@
+.hidden{
+    display: flex;
+    background: cornflowerblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #000;
+    padding: 10px;
+}
+.hidden img{
+    border-radius: 20px;
+    height: 60px;
+    margin-right: 2px;
+}
+.hidden h2{
+    margin-top: 10px;
+}
